@@ -1,5 +1,5 @@
 welcome:
-  message: welcome tested
+  message: welcome tes
 
 management:
   endpoints.web.exposure.include:
