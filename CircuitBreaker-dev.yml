@@ -1,7 +1,7 @@
 resilience4j:
   circuitbreaker:
     instances:
-      albumcb:
+      countries-service:
         register-health-indicator: true
         registerHealthIndicator: true
         slidingWindowSize: 10
