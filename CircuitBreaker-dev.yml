@@ -8,8 +8,8 @@ resilience4j:
         minimumNumberOfCalls: 5
         permittedNumberOfCallsInHalfOpenState: 3
         automaticTransitionFromOpenToHalfOpenEnabled: true
-        slowCallRateThreshold: 30
+        slowCallRateThreshold: 20
         slowCallDurationThreshold: 5s
         waitDurationInOpenState: 20s
-        failureRateThreshold: 30
+        failureRateThreshold: 20
         eventConsumerBufferSize: 10
