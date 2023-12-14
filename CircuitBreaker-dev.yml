@@ -1,18 +1,18 @@
 resilience4j:
   circuitbreaker:
     instances:
-      countries-service:
-        register-health-indicator: true
-        registerHealthIndicator: true
-        slidingWindowSize: 10
-        minimumNumberOfCalls: 5
-        permittedNumberOfCallsInHalfOpenState: 3
-        automaticTransitionFromOpenToHalfOpenEnabled: true
-        slowCallRateThreshold: 20
-        slowCallDurationThreshold: 5s
-        waitDurationInOpenState: 20s
-        failureRateThreshold: 20
-        eventConsumerBufferSize: 10
+    #   countries-service:
+    #     register-health-indicator: true
+    #     registerHealthIndicator: true
+    #     slidingWindowSize: 10
+    #     minimumNumberOfCalls: 5
+    #     permittedNumberOfCallsInHalfOpenState: 3
+    #     automaticTransitionFromOpenToHalfOpenEnabled: true
+    #     slowCallRateThreshold: 20
+    #     slowCallDurationThreshold: 5s
+    #     waitDurationInOpenState: 20s
+    #     failureRateThreshold: 20
+    #     eventConsumerBufferSize: 10
      ignore-cb:
         register-health-indicator: true
         registerHealthIndicator: true
