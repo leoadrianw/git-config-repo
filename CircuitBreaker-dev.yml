@@ -2,7 +2,6 @@ resilience4j:
   circuitbreaker:
     instances:
       countries-service:
-        register-health-indicator: true
         registerHealthIndicator: true
         slidingWindowSize: 10
         minimumNumberOfCalls: 5
@@ -14,7 +13,6 @@ resilience4j:
         failureRateThreshold: 20
         eventConsumerBufferSize: 10
      ignore-cb:
-        register-health-indicator: true
         registerHealthIndicator: true
         slidingWindowSize: 10
         minimumNumberOfCalls: 5
